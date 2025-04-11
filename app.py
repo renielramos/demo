@@ -6,7 +6,7 @@ def fahrenheit_to_celsius(f):
     return round((f - 32) * 5/9, 2)
 
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     c = 25
     f = celsius_to_fahrenheit(c)
     print(f"{c}°C is {f}°F")
